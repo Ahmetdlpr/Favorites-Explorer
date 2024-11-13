@@ -1,0 +1,200 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+.Appcontainer
+{
+      position:absolute;
+      width:98%;
+      height:96%;
+      background-color: rgb(37, 61, 61);
+      margin-left:0.5em;
+      margin-top:0.3em;
+      border-radius:0.3em;
+      box-shadow: 10px 10px 10px 10px #242424;
+}
+.inputform
+{
+    position:absolute;
+    top:30%;
+    left:28.5%;
+    width:39.9em;
+    height:16em;
+    background-color: #242424;
+    border-radius:0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px #242424;
+}
+.logocontainer
+{
+    position: absolute;
+    top:2.9%;
+    left:13.9%;
+    width:28em;
+    height:5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:0.1em;
+}
+.logocontainer img 
+{
+    width:7em;
+    height: 5em;
+    border-radius:100%;
+    border:7px solid rgb(37, 61, 61);
+    margin-top:0.4em;
+}
+
+.inputform input 
+{
+    font-size:larger;
+    padding:0.3em;
+    width:60%;
+    outline: none;
+    border:3px solid rgb(37, 61, 61);;
+    border-radius:0.2em;
+    background-color: #242424;
+    padding-left: 1em;
+    font-weight: bolder;
+
+}
+
+.inputform input:focus 
+{
+    transition: all 0.5s ease-in;
+    background-color: rgb(37, 61, 61);
+     width:80%;
+     border-radius:0.3em;
+
+}
+#searchicon
+{
+    
+    font-size:1.5em;
+    left:17%;
+    color:rgb(171, 171, 171);
+    padding:0.2em;
+    font-weight: bold;
+}
+.Searchbutton
+{
+    position:absolute;
+    top:63%;
+    left:39%;
+    padding: 0.5em;
+    text-align: center;
+    background-color:aliceblue;
+    background-color:#313131;
+    outline:none;
+    border-radius: 0.2em;
+    border:none;
+    cursor:pointer;
+}
+.Searchbutton:hover
+{
+    transition: ease-in-out all 0.5s;
+    border:1px solid lightgreen;
+    color:lightgreen;
+}
+footer 
+{
+    position:absolute;
+    bottom:0%;
+    background-color: #242424;
+    width:100%;
+    height:10%;
+    border:none;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+.searchcontainer
+{
+    position:absolute;
+    top:4.5%;
+    left:5%;
+    width:91.2%;
+    height: 81%;
+    background-color: #242424;
+    border-radius:0.2em;
+    box-shadow: 10px 10px 10px 10px #242424;
+}
+.searchcontainerfooter
+{
+    width:13%;
+    height:6%;
+    margin-left:5.5%;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top:0.5em;
+    padding-left:1em;
+    
+}
+.searchpw
+{  
+    background-color:rgb(37, 61, 61) ;
+color:lightgreen;
+border:none;
+outline: none;
+padding:0.5em;
+border-radius:0.3em;
+cursor: pointer;
+margin-top:0.5em;
+font-weight: bolder;
+}
+.ResultListWrapper
+{
+    position:absolute;
+    top:10%;
+    left:5.5%;
+    width: 91%;
+    border-radius:0.2em;
+    height:86%;
+    background-color: rgb(37, 61, 61);
+}
+.List
+{
+    border-radius:0.2em;
+    position: absolute;
+    width:100%;
+    height:100%;
+    padding-top:1em;
+    padding-left: 1em;
+}
+.List li 
+{
+    margin-top:1.6em;
+    background-color: #242424;
+    width: 49em;
+    height:2em;
+    display: flex;
+    align-items: center;
+    padding-left:2em;
+    border-radius:0.2em;
+    box-shadow: 10px 10px 10px 10px #242424;
+}
+.Searchlistitem
+{
+    color:white;
+}
+.Searchtitle
+{
+    position:absolute;
+    left:48%;
+    color:lightgreen;
+    background-color: rgb(37, 61, 61);
+    padding:0.4em;
+  width:auto;
+  top:0.2em;
+  border-radius:0.2em;
+
+}
