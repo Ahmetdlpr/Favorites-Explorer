@@ -10,7 +10,7 @@
       position:absolute;
       width:98%;
       height:96%;
-      background-color: rgb(37, 61, 61);
+      background-color: rgb(150, 201, 201);
       margin-left:0.5em;
       margin-top:0.3em;
       border-radius:0.3em;
@@ -19,11 +19,11 @@
 .inputform
 {
     position:absolute;
-    top:30%;
+    top:20%;
     left:28.5%;
     width:39.9em;
     height:16em;
-    background-color: #242424;
+    background-color: rgb(216, 195, 169);
     border-radius:0.3em;
     display: flex;
     justify-content: center;
@@ -47,7 +47,8 @@
     width:7em;
     height: 5em;
     border-radius:100%;
-    border:7px solid rgb(37, 61, 61);
+    border:7px solid rgb(150, 201, 201);
+
     margin-top:0.4em;
 }
 
@@ -57,40 +58,31 @@
     padding:0.3em;
     width:60%;
     outline: none;
-    border:3px solid rgb(37, 61, 61);;
-    border-radius:0.2em;
-    background-color: #242424;
+    border-radius:0.3em;
+    background-color:white;
     padding-left: 1em;
     font-weight: bolder;
-
+    outline:none;
+    border:none;
 }
 
 .inputform input:focus 
 {
     transition: all 0.5s ease-in;
-    background-color: rgb(37, 61, 61);
+    background-color: rgb(217, 217, 217);
      width:80%;
      border-radius:0.3em;
 
 }
-#searchicon
-{
-    
-    font-size:1.5em;
-    left:17%;
-    color:rgb(171, 171, 171);
-    padding:0.2em;
-    font-weight: bold;
-}
+
 .Searchbutton
 {
     position:absolute;
     top:63%;
-    left:39%;
+    left:36.1%;
     padding: 0.5em;
     text-align: center;
     background-color:aliceblue;
-    background-color:#313131;
     outline:none;
     border-radius: 0.2em;
     border:none;
@@ -100,13 +92,14 @@
 {
     transition: ease-in-out all 0.5s;
     border:1px solid lightgreen;
-    color:lightgreen;
+    color:green;
+    border-bottom:2px solid green;
 }
 footer 
 {
     position:absolute;
     bottom:0%;
-    background-color: #242424;
+    background-color: rgb(216, 195, 169);
     width:100%;
     height:10%;
     border:none;
@@ -120,13 +113,14 @@ footer
     left:5%;
     width:91.2%;
     height: 81%;
-    background-color: #242424;
+    background-color: rgb(150, 201, 201);
+    
     border-radius:0.2em;
     box-shadow: 10px 10px 10px 10px #242424;
 }
 .searchcontainerfooter
 {
-    width:13%;
+    width:30%;
     height:6%;
     margin-left:5.5%;
     border-bottom-left-radius: 0.3em;
@@ -137,29 +131,40 @@ footer
     justify-content: start;
     margin-top:0.5em;
     padding-left:1em;
-    
+   
 }
 .searchpw
 {  
-    background-color:rgb(37, 61, 61) ;
-color:lightgreen;
+color:cadetblue;
 border:none;
 outline: none;
 padding:0.5em;
 border-radius:0.3em;
 cursor: pointer;
-margin-top:0.5em;
+margin-top:0.9em;
+margin-left:1em;
 font-weight: bolder;
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 8px;
+    background-color: rgb(216, 195, 169);
+  box-shadow: 5px 5px 5px 5px #242424;
+
 }
 .ResultListWrapper
 {
     position:absolute;
-    top:10%;
+    top:1%;
     left:5.5%;
     width: 91%;
     border-radius:0.2em;
     height:86%;
-    background-color: rgb(37, 61, 61);
+    background-color: rgb(216, 195, 169);
+    box-shadow: 10px 10px 10px 10px #242424;
+    overflow-y: scroll;
+
+    
 }
 .List
 {
@@ -173,28 +178,34 @@ font-weight: bolder;
 .List li 
 {
     margin-top:1.6em;
-    background-color: #242424;
-    width: 49em;
-    height:2em;
+    background-color: #cecbcb;
+    width: 40em;
+    height:3em;
     display: flex;
     align-items: center;
     padding-left:2em;
     border-radius:0.2em;
     box-shadow: 10px 10px 10px 10px #242424;
+    font-size:1em;
+    font-weight: bolder;
 }
+
 .Searchlistitem
 {
-    color:white;
+ color:blue;
 }
 .Searchtitle
 {
     position:absolute;
-    left:48%;
-    color:lightgreen;
-    background-color: rgb(37, 61, 61);
-    padding:0.4em;
+    right:3%;
+    color:#242424;
+    background-color: rgb(216, 195, 169);
+    padding:0.3em;
+    padding-left:1.9em;
+    padding-right:1.9em;
   width:auto;
-  top:0.2em;
+  top:0.5em;
   border-radius:0.2em;
+  box-shadow: 5px 5px 5px 5px #242424;
 
 }

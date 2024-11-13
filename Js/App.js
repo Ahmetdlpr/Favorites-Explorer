@@ -34,7 +34,6 @@ const searchdata=[
         link4:'https://www.youtube.com/@HTalksYoutube',
         link5:'https://www.youtube.com/@trthaber',
 
-
     }
 ]
 
@@ -65,8 +64,8 @@ const Search=()=>{
                          a1.classList.add("Searchlistitem");
                          a1.textContent="Purplebixi";
                          a1.href=searchdata[i].link1;
-                         a1.style.textDecoration="none";
-                         a1.style.color="white";
+                        
+                 
         
         
                        /* Kick link2 */
@@ -76,8 +75,8 @@ const Search=()=>{
                          a2.classList.add("Searchlistitem");
                          a2.textContent="Kaanflix";
                          a2.href=searchdata[i].link2;
-                         a2.style.textDecoration="none";
-                         a2.style.color="white";
+                         
+                     
         
 
                           /* Kick link3 */
@@ -86,8 +85,8 @@ const Search=()=>{
                           a3.classList.add("Searchlistitem");
                           a3.textContent="Buraksakinol";
                           a3.href=searchdata[i].link3;
-                          a3.style.textDecoration="none";
-                          a3.style.color="white";
+                          
+                         
 
 
                          /* Kick link3 */
@@ -96,8 +95,8 @@ const Search=()=>{
                          a4.classList.add("Searchlistitem");
                          a4.textContent="Cavs Karahanlı";
                          a4.href=searchdata[i].link4;
-                         a4.style.textDecoration="none";
-                         a4.style.color="white";
+                        
+                     
 
 
                          /* Kick link1 add */ 
@@ -151,8 +150,8 @@ const Search=()=>{
                              a1.classList.add("Searchlistitem");
                              a1.textContent="Zargoryan Galaksisi";
                              a1.href=searchdata[i].link1;
-                             a1.style.textDecoration="none";
-                             a1.style.color="white";
+                             
+                            
             
 
 
@@ -162,8 +161,8 @@ const Search=()=>{
                              a2.classList.add("Searchlistitem");
                              a2.textContent="Reddit/Turkey";
                              a2.href=searchdata[i].link2;
-                             a2.style.textDecoration="none";
-                             a2.style.color="white";
+                          
+                             
             
 
 
@@ -201,8 +200,8 @@ const Search=()=>{
                                  a1.classList.add("Searchlistitem");
                                  a1.textContent="Noluyo ya";
                                  a1.href=searchdata[i].link1;
-                                 a1.style.textDecoration="none";
-                                 a1.style.color="white";
+                             
+                                 
                 
                 
                                /* Youtube link2 */
@@ -212,8 +211,8 @@ const Search=()=>{
                                  a2.classList.add("Searchlistitem");
                                  a2.textContent="IShowSpeed";
                                  a2.href=searchdata[i].link2;
-                                 a2.style.textDecoration="none";
-                                 a2.style.color="white";
+                               
+                                 
                 
         
                                   /* Youtube link3 */
@@ -222,8 +221,8 @@ const Search=()=>{
                                   a3.classList.add("Searchlistitem");
                                   a3.textContent="Çok güzel hareketler bunlar";
                                   a3.href=searchdata[i].link3;
-                                  a3.style.textDecoration="none";
-                                  a3.style.color="white";
+                                 
+                                
         
         
                                  /* Youtube link4 */
@@ -232,8 +231,8 @@ const Search=()=>{
                                  a4.classList.add("Searchlistitem");
                                  a4.textContent="Htalks";
                                  a4.href=searchdata[i].link4;
-                                 a4.style.textDecoration="none";
-                                 a4.style.color="white";
+                                 
+                               
         
 
                                  
@@ -243,8 +242,8 @@ const Search=()=>{
                                  a5.classList.add("Searchlistitem");
                                  a5.textContent="Trt haber";
                                  a5.href=searchdata[i].link5;
-                                 a5.style.textDecoration="none";
-                                 a5.style.color="white";
+                             
+                               
 
 
         
