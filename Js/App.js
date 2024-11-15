@@ -14,6 +14,7 @@ let Googlebtn=document.querySelector(".Googleoption");
 let FElogo=document.querySelector(".FElogo");
 let Googlelogo=document.querySelector(".Googlelogo")
 let logocontainer=document.querySelector(".logocontainer");
+let Footer=document.querySelector(".Footer");
 Googlelogo.remove();
 FEbtn.remove();
 searchcontainer.remove();
@@ -301,6 +302,10 @@ const GooglesearchF=()=>{
 }
 
 const Googlesearchoption=()=>{
+   
+    inputform.style.transition=" ease-in-out all 1s";
+  Appcontainer.style.transition="ease-in-out all 1s"
+
   Googlebtn.remove();
   option.appendChild(FEbtn);
   Searchbutton.remove();
@@ -315,6 +320,8 @@ const Googlesearchoption=()=>{
 
 
 const FEoptionF=()=>{
+  inputform.style.transition=" ease-in-out all 1s";
+  Appcontainer.style.transition="ease-in-out all 1s"
   FEbtn.remove();
   option.appendChild(Googlebtn);
   Googlesearch.remove();

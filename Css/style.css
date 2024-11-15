@@ -10,7 +10,7 @@
       position:absolute;
       width:98%;
       height:96%;
-      background-color: rgb(150, 201, 201);
+      background-color: rgb(191, 220, 220);
       margin-left:0.5em;
       margin-top:0.3em;
       border-radius:0.3em;
@@ -268,7 +268,7 @@ overflow: hidden;
 .FEoption:hover
 {
     transition: ease-in-out all 0.5s;
-    box-shadow: 5.5px 5.5px 5.5px 5.5px white;
+    box-shadow: 5.5px 5.5px 5.5px 5.5px rgb(216, 195, 169);
     
 }
 .Googleoption
