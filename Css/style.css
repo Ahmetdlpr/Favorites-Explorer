@@ -41,14 +41,15 @@
     align-items: center;
     justify-content: center;
     padding-top:0.1em;
+    background-color: transparent;
 }
 .logocontainer img 
 {
     width:7em;
     height: 5em;
     border-radius:100%;
-    border:7px solid rgb(150, 201, 201);
-
+    
+  
     margin-top:0.4em;
 }
 
@@ -59,7 +60,7 @@
     width:60%;
     outline: none;
     border-radius:0.3em;
-    background-color:white;
+    background-color:rgb(249, 240, 240);
     padding-left: 1em;
     font-weight: bolder;
     outline:none;
@@ -78,8 +79,8 @@
 .Searchbutton
 {
     position:absolute;
-    top:63%;
-    left:36.1%;
+    top:60%;
+    left:38.5%;
     padding: 0.5em;
     text-align: center;
     background-color:aliceblue;
@@ -113,7 +114,8 @@ footer
     left:5%;
     width:91.2%;
     height: 81%;
-    background-color: rgb(150, 201, 201);
+    background-color: rgb(191, 220, 220);
+
     
     border-radius:0.2em;
     box-shadow: 10px 10px 10px 10px #242424;
@@ -208,4 +210,100 @@ column-gap: 8px;
   border-radius:0.2em;
   box-shadow: 5px 5px 5px 5px #242424;
 
+}
+.Googlesearch
+{
+    position:absolute;
+    top:60%;
+    width: 12.2em;
+    left:38.5%;
+    padding: 0.5em;
+    text-align: center;
+    outline:none;
+    border-radius: 0.2em;
+    border:none;
+    cursor:pointer;
+}
+.Googlesearch:hover
+{
+    transition: ease-in-out all 0.5s;
+    border:1px solid lightgreen;
+    color:rgb(192, 192, 14);
+    border-bottom:2px solid rgb(192, 192, 14);
+}
+.option
+{
+    width: 11em;
+    height: 3em;
+    background-color: rgb(216, 195, 169);
+    position: absolute;
+    right:2.4em;
+    top:5%;
+    border-radius:0.2em;
+}
+.FEoption
+{
+    width:100%;
+    height: 100%;
+    border-radius: 0.3em;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:1em;
+    background-color: rgb(191, 220, 220);
+    color:black;
+    font-weight: bolder;
+    border:none;
+    outline:none;
+    box-shadow: 5px 5px 5px 5px #242424;
+}
+.FEoption img 
+{
+    width: 5em;
+    height: 3.5em;
+    border-radius: 50%;
+overflow: hidden;
+}
+.FEoption:hover
+{
+    transition: ease-in-out all 0.5s;
+    box-shadow: 5.5px 5.5px 5.5px 5.5px white;
+    
+}
+.Googleoption
+{
+    width:100%;
+    height: 100%;
+    border-radius: 0.3em;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    padding-left:1em;
+    background-color: white;
+    color:Blue;
+    font-weight: bolder;
+    border:none;
+    outline:none;
+    box-shadow: 5px 5px 5px 5px #242424;
+
+}
+.Googleoption img 
+{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+overflow: hidden;
+}
+.Googleoption:hover
+{
+    transition: ease-in-out all 0.5s;
+    box-shadow: 5.5px 5.5px 5.5px 5.5px blue;
+    
+}
+.Googlelogo
+{
+    background-color: transparent;
 }

@@ -7,8 +7,17 @@ let Appcontainer=document.querySelector(".Appcontainer");
 let searchpw=document.querySelector(".searchpw");
 let Searchtitle=document.querySelector(".Searchtitle");
 let Pageetitle=document.querySelector(".Pageetitle")
+let Googlesearch=document.querySelector(".Googlesearch");
+let option=document.querySelector(".option");
+let FEbtn=document.querySelector(".FEoption");
+let Googlebtn=document.querySelector(".Googleoption");
+let FElogo=document.querySelector(".FElogo");
+let Googlelogo=document.querySelector(".Googlelogo")
+let logocontainer=document.querySelector(".logocontainer");
+Googlelogo.remove();
+FEbtn.remove();
 searchcontainer.remove();
-
+Googlesearch.remove();
 
 
 const searchdata=[
@@ -285,4 +294,44 @@ const Search=()=>{
 }
 
 
+const GooglesearchF=()=>{
+  let inputValue = Searchinput.value;
+   let url = "https://www.google.com/search?q=" + inputValue; 
+   window.open(url, '_blank');
+}
+
+const Googlesearchoption=()=>{
+  Googlebtn.remove();
+  option.appendChild(FEbtn);
+  Searchbutton.remove();
+  inputform.appendChild(Googlesearch);
+  FElogo.remove();
+  logocontainer.appendChild(Googlelogo);
+  Searchinput.placeholder="Google'da ara";
+  Appcontainer.style.backgroundColor="white";
+  inputform.style.backgroundColor="white";
+
+}
+
+
+const FEoptionF=()=>{
+  FEbtn.remove();
+  option.appendChild(Googlebtn);
+  Googlesearch.remove();
+  inputform.appendChild(Searchbutton);
+  Googlelogo.remove();
+  logocontainer.appendChild(FElogo);
+  Searchinput.placeholder="Favorites Explorer'da Ara";
+  let h1=document.createElement("h1");
+  Appcontainer.style.backgroundColor="rgb(191, 220, 220)";
+  inputform.style.backgroundColor="rgb(191, 220, 220)";
+
+}
+
+
+
+
+FEbtn.addEventListener("click", FEoptionF);
+Googlebtn.addEventListener("click",Googlesearchoption);
+Googlesearch.addEventListener("click",GooglesearchF);
 Searchbutton.addEventListener("click",Search);
